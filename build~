@@ -1,7 +1,6 @@
 #!/bin/bash
 
 sudo apt-get install gcc
-sudo apt-get install g++
 gcc -c main.cpp
 gcc -c normalization.cpp
 gcc main.o normalization.o -o SyntacticAnalysis
